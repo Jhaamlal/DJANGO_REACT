@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'api',
     'api.category',
     'api.product'
+    'api.user'
 
 ]
 
@@ -63,6 +64,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'ecom.urls'
+
+AUTH_USER_ALLOW_ALL = "user.CustomUser"
 
 TEMPLATES = [
     {
